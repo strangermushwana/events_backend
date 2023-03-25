@@ -1,0 +1,30 @@
+{
+  "name": "strapi-backend",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Backend for the DJ Events application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/strapi": "4.8.2",
+    "@strapi/plugin-users-permissions": "4.8.2",
+    "@strapi/plugin-i18n": "4.8.2",
+    "better-sqlite3": "8.0.1"
+  },
+  "author": {
+    "name": "Stranger Mushwana"
+  },
+  "strapi": {
+    "uuid": "f4a41945-9b66-48bb-9be1-6fcc6bf11c3e"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
